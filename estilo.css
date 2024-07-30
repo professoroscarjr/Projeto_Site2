@@ -1,0 +1,74 @@
+/* Todos os imports tem de ser colocados no inicio do CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(236, 230, 236);
+}
+
+.figura {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classe para configuração de fonte */
+.fonte {
+    color: #DAA520;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Efeito rotação */
+.flip-container{
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.flipper{
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-container:hover.flipper{
+    transform: rotateY('180deg');
+}
+.back{
+    transform: rotate(180deg);
+}
